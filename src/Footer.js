@@ -1,6 +1,8 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 import "./Footer.css";
 
@@ -12,8 +14,8 @@ const Footer = () => {
       </span>
       <span>
         <FaInstagram className="socials mx-4" />
-        <FaInstagram className="socials mx-4" />
-        <FaInstagram className="socials mx-4" />
+        <FaFacebook className="socials mx-4" />
+        <FaTwitter className="socials mx-4" />
       </span>
       <span>
         <p className="four">Join our mail list</p>
