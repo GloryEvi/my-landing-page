@@ -6,10 +6,10 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <main>
+    <div className="saas">
       <section className="sec">
         <h2>Contact Us</h2>
-        <p>
+        <p className="cool">
           We’re here to help! from product support to media enquires, feel free
           to mail us at <span>fulsome_inker_12@gmail.com</span>
         </p>
@@ -59,7 +59,7 @@ const Contact = () => {
           </form>
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 

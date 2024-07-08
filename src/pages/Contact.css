@@ -22,14 +22,14 @@
     width: 744px;
     height: 58px;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 28.8px;
     text-align: center;
     color: #fff;
     span {
       font-family: Lato;
-      font-size: 24px;
+      font-size: 15px;
       font-weight: 400;
       line-height: 28.8px;
       text-align: center;
@@ -169,5 +169,24 @@
         color: #fff;
       }
     }
+  }
+}
+.saas {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 1100px) {
+  .sec:nth-of-type(2) {
+    width: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .sec:first-of-type p {
+    font-size: 7px;
+  }
+  .sec:first-of-type p span {
+    font-size: 8px;
   }
 }
