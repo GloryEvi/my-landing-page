@@ -1,0 +1,43 @@
+.product-card {
+  width: 250px;
+  height: 410px;
+}
+.product-container {
+  padding: 20px;
+}
+.photo {
+  background: #ba8a5214;
+  height: 280px;
+  margin: 0;
+}
+.product-card-title {
+  font-family: Cormorant Garamond;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+}
+.product-card-text {
+  font-family: Cormorant Garamond;
+  margin: 0;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #606060;
+}
+.custom-button {
+  background: #9d0302;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  margin: 0;
+}
+.intro {
+  color: #000000;
+  text-align: center;
+  font-family: Cormorant Garamond;
+}

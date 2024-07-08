@@ -1,0 +1,56 @@
+.all {
+  background: #1a1313;
+  padding: 35px 0;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.three {
+  color: white;
+  font-size: 24px;
+  position: relative;
+  left: 40px;
+}
+.four {
+  color: white;
+  font-size: 22px;
+  position: relative;
+  left: 100px;
+  margin: 0%;
+}
+.socials {
+  color: white;
+  font-size: 24px;
+  position: relative;
+  top: 8px;
+}
+.footerB {
+  color: white;
+  background: darkred;
+  padding: 4px 14px;
+  border: none;
+  border-radius: 4px;
+}
+.add {
+  border: none;
+  padding: 4px 14px;
+  border-radius: 2px;
+}
+@media (max-width: 1100px) {
+  .four {
+    font-size: 12px;
+    position: relative;
+    left: 90px;
+    padding: 0;
+    margin: 0;
+  }
+  .footerB {
+    padding: 3px 8px;
+  }
+  .add {
+    padding: 3px 7px;
+    margin: 0;
+  }
+}
