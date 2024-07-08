@@ -3,7 +3,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container flash">
       <div className="row">
         <div className="one col-8">
           <h1 className="First mt-4">Uncork the Perfect Bottle.</h1>

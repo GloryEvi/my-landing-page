@@ -14,6 +14,7 @@ const Contact = () => {
           to mail us at <span>fulsome_inker_12@gmail.com</span>
         </p>
       </section>
+
       <section className="sec">
         <div className="contacts">
           <div className="contact-cards">

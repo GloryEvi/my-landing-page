@@ -48,9 +48,19 @@
   }
   .footerB {
     padding: 3px 8px;
+    position: relative;
+    top: 9px;
   }
   .add {
     padding: 3px 7px;
     margin: 0;
+    position: relative;
+    top: 9px;
+  }
+  .socials {
+    left: 20px;
+  }
+  .four {
+    display: none;
   }
 }

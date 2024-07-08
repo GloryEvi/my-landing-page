@@ -54,9 +54,19 @@
     display: none;
   }
   .First {
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 45px;
   }
   .First0 {
-    font-size: 10px;
+    font-size: 20px;
+  }
+  .flash {
+    background-image: url("../../public/hng17\ -\ Copy.jpg");
+  }
+  .first2 {
+    left: 30px;
+  }
+  .First1 {
+    font-size: 11px;
   }
 }
