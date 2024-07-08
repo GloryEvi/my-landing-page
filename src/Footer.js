@@ -18,7 +18,7 @@ const Footer = () => {
       <span>
         <p className="four">Join our mail list</p>
       </span>
-      <span>
+      <span className="nun">
         <Form>
           <input
             type="email"
