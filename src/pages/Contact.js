@@ -1,6 +1,7 @@
 import React from "react";
-import { FaLocationDot } from "react-icons/fa6";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import "./Contact.css";
 
 const Contact = () => {
@@ -20,11 +21,11 @@ const Contact = () => {
               <div className="card">
                 <h3>Nigeria</h3>
                 <span>
-                  <FaLocationDot />
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
                   <p>2286 Royal Lt. Abdul Musa, Abuja, Nigeria</p>
                 </span>
                 <span>
-                  <FaPhoneAlt />
+                  <FontAwesomeIcon icon={faPhone} />
                   <p>+234 (903) 555-345</p>
                 </span>
               </div>
@@ -34,11 +35,11 @@ const Contact = () => {
               <div className="card">
                 <h3>USA</h3>
                 <span>
-                  <FaLocationDot />
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
                   <p>2464 Royal Ln. Mesa, New Jersey 45463</p>
                 </span>
                 <span>
-                  <FaPhoneAlt />
+                  <FontAwesomeIcon icon={faPhone} />
                   <p>+1 (205) 555-0100</p>
                 </span>
               </div>
