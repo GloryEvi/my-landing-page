@@ -68,4 +68,8 @@
   .three {
     display: none;
   }
+  .socials {
+    display: inline;
+    justify-content: space-evenly;
+  }
 }
