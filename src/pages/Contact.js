@@ -48,7 +48,7 @@ const Contact = () => {
           </div>
 
           <form action="#">
-            <h2>Send us a message</h2>
+            <h2 className="iph">Send us a message</h2>
             <span>
               <input type="text" placeholder="Name" />
               <input type="email" placeholder="Email" />

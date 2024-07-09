@@ -189,4 +189,14 @@
   .sec:first-of-type p span {
     font-size: 8px;
   }
+  .sec:nth-of-type(2) .contacts form h2 {
+    font-size: 24px;
+  }
+  .sec:nth-of-type(2) .contacts form span input {
+    width: 350px;
+  }
+  .sec:nth-of-type(2) .contacts form span textarea {
+    padding: 12px 18px;
+    margin: 0;
+  }
 }
